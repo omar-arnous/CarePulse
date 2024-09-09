@@ -42,7 +42,6 @@ const PatientForm = () => {
     setIsLoading(true);
 
     try {
-      console.log({ name, email, phone });
       const userData = {
         name,
         email,
